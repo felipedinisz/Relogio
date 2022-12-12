@@ -1,0 +1,37 @@
+:root{
+    --primary-color: rgb(17, 86, 102);
+    --secundary-color: rgb(25, 109, 128);
+}
+
+*{
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+.container{
+    margin: 12rem auto;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 640px;
+    background-color: #fff;
+    padding: 30px 20px;
+    box-shadow: 5px 5px 7px #000;
+    line-height: 1.6em;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+div {
+    font-size: 3rem;
+}
